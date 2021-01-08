@@ -35,7 +35,7 @@ int main()
 	for (i = 0; i <= max_num; i++)
 		count[i] = 0;
 
-	count_sort(list, sorted, count, cumulative_sum, n);
+	counting_sort(list, sorted, count, cumulative_sum, n);
 
 	for (i = 1; i <= n; i++)
 		printf("%d\n", sorted[i]);
